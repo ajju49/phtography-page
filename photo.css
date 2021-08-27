@@ -1,0 +1,85 @@
+.container{
+    width: auto;
+    height: 100vh;
+}
+.page1{
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100vh;
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: 15em;
+
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(207, 126, 72);
+    background-size: cover;
+    background-image:url('camera3.jpg') ;
+    background-repeat: no-repeat;
+    
+}
+.heading{
+    font-size: 3em;
+   
+ }
+@media only screen and (max-width: 600px){
+    .heading{
+        font-size: 1.5em;
+        color: brown;
+
+    } 
+}
+/*********************seperation*******************************/
+.seperation{
+    height: 4em;
+    background-color: rgb(32, 100, 102);
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+}
+/************************pics*******************************/
+.img1{
+    height: 100vh;
+    background-color: yellowgreen;
+    background-image: url('pic 1.jpg');
+    background-size: cover;
+background-position: center;
+}
+.img2{
+    height: 100vh;
+    background-color: yellowgreen;
+    background-image: url('pic2.jpg');
+    background-size: cover;
+}
+.img3{
+    height: 100vh;
+    background-color: yellowgreen;
+    background-image: url('pic3.jpg');
+    background-size: cover;
+    background-position:bottom;
+}
+.img4{
+    height: 100vh;
+    background-color: yellowgreen;
+    background-image: url('pic4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img-description{
+    height: 4em;
+    background-color:rgb(32, 100, 102);
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+}
+/**********************footer******************************/
+.footer{
+    height: 50vh;
+    padding-top: 5em;
+    background-color: lightcyan;
+    text-align: center;
+}
